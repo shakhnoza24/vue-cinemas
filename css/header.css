@@ -96,8 +96,21 @@
     width: 100%;
 }
 
+@media screen and (max-width:768px) {
+    .navbar__wrap{
+        flex-direction: column;
+        gap: 20px;
+    }
 
+    .navbar__list-item a{
+        padding: 20px 0;
+    }
+}
 
-.banner{
+@media screen and (max-width:360px){
+    .navbar__list{
+        gap: 15px;
+    }
     
 }
+
