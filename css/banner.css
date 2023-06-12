@@ -52,3 +52,33 @@
     gap: 30px;
     align-items: center;
 }
+
+@media screen and (max-width:768px){
+    .banner{
+        height: 75vh;
+    }
+
+    .banner__desc-title{
+        font-size: 42px;
+        line-height: 40px;
+    }
+
+    .banner__wrap{
+        justify-content: center;
+    }
+
+    .banner__desc{
+        text-align: center;
+    }
+
+    .banner__btns{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:568px){
+    .banner__desc-title{
+        font-size: 28px;
+        line-height: 30px;
+    }
+}
