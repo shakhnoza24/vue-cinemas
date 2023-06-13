@@ -60,6 +60,6 @@ body{
     line-height: 40px;
     color: var(--lightor);
     text-transform: capitalize;
-    padding-bottom: 10px;
+    margin-bottom: 55px;
     border-bottom: 2px solid var(--lightor);
 }
