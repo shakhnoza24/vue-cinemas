@@ -62,4 +62,5 @@ body{
     text-transform: capitalize;
     margin-bottom: 55px;
     border-bottom: 2px solid var(--lightor);
+    width: max-content;
 }
